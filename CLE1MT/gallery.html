@@ -1,54 +1,120 @@
 <!DOCTYPE html>
 <html>
-	<head>
+		<head>
 		<title>Gallery</title>
-		<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-	   
 		<style>
-
-        body,h1 {font-family: "Raleway", sans-serif}
-        body, html {height: 100%}
-        .bgimg {
-        background-image: url(bg.jpg);
-        min-height: 100%;
-        background-position: center;
-        background-size: cover;
-        } 
 		
+			Body{
+					background-image: url(bg.jpg);
+					background-repeat: no-repeat;
+					background-attachment: float;
+					background-position: center center;
+					background-size: cover;
+				}
+			
+				
+			ul{
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+					top: 0;
+					position: fixed;
+					width: 1465px;
+					background-color: white;
+				}
+				
+			
+			dd{ 	font-family: Arial, Helvetica, sans-serif;
+					font-size: 25px;
+					color: rgb(0, 0, 0);
+					text-align: center;
+					margin-top: 20px;
+					margin-left: 5px;
+				}
+				
+			dt{ 	font-family: Arial, Helvetica, sans-serif;
+					font-size: 30px;
+					color: rgb(0, 0, 0);
+					text-align: center;
+					margin-top: 20px;
+					margin-left: 5px;
+				}
+			li{
+					font-size: 20px;
+					float: left;
+					color: black;
+					text-align: left;
+					padding: 14px 16px;
+					text-decoration: none;
+				}
+			
+				
+			Head1{	display: block;
+					font-size: 55px;
+					color: rgb(0, 0, 0);
+					font-style: bold;
+					text-align: center;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				
+			p{ 		font-family: Arial, Helvetica, sans-serif;
+					font-size: 25px;
+					color: rgb(0, 0, 0);
+					text-align: center;
+					margin-top: 20px;
+					margin-left: 5px;
+				}
+			
+			img{ 
+					display: block;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 5px;
+					width: 30%;
+					height: auto;
+					border: 2px solid white;
+			}
+			#wrapper{
+				width: 1400px;
+				height: auto;
+				padding: 50px;
+			}
+
+			#box3{ 
+					width: 1200px;
+					height: auto;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			#box4{ 
+					width: 1200px;
+					height: auto;
+					margin-left: auto;
+					margin-right: auto;
+					border: 2px solid white;
+				}
 		</style>
 		</head>
 		<body>
-            <div class="w3-top">
-                <div class="w3-bar w3-black w3-card">
-                  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-                  <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-                  <a href="solutions.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOLUTIONS</a>
-                  <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GALLERY</a>
-                  <a href="aboutus.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
-                    </div>
-                  </div>
-		<div class="w3-row-padding-69 w3-grayscale w3-display-left">
-		<div class="w3-col l3 m6 w3-margin-bottom">
-		<img src="case1.jpg" alt="1977" style="width:100%">
-		<h3>The case of Archimedes Trajano</h3>
-		<p>Witnesses said Trajano was seen forcibly taken from the venue by Imee’s bodyguards, and was tortured for 12 to 36 hours and thrown out of a second floor window.</p>
-		<p class="w3-opacity">1977</p>
-	    </div>
-		<div class="w3-col l3 m6 w3-margin-left">
-		<img src="case3.jpg" alt="1977" style="width:100%">
-		<h3>The case of Guevarra</h3>
-		<p>Seventy-eight-year old Pascual Guevarra was shot dead by a lone gunman on July 9, 2010.</p>
-		<p class="w3-opacity">2010</p>
+		<ul>
+		<li><a href="index.html">Home</a> </li>
+		<li><a href="solutions.html">Solutions</a> </li>
+		<li><a href="gallery.html">Gallery</a> </li>
+		<li><a href="aboutus.html">About Us</a> </li>
+		</ul>
+		<div id="wrapper">
+		<div id="box3"> <Head1>Gallery</Head1> <p> These are some of the cases in Marcos, Macapagal, Aquino, and Duterte's Administration. </p> </div>
+		<div id="box3">
+		<img src="case1.jpg" alt="Case1">
+		<dt>The case of Archimedes Trajano</dt>
+		<img src="case2.jpg" alt="Case2">
+		<dt>The case of Karen Empeño and Sherlyn Cadapan</dt>
+		<img src="case3.jpg" alt="Case3">
+		<dt>The case of Pascual Guevarra</dt>
+		<img src="case4.jpg" alt="Case4">
+		<dt>The case of Kian Delos Santos</dt>
 		</div>
-		<div class="w3-col l3 m6 w3-margin-left">
-		<img src="case4.jpg" alt="2017" style="width:100%">
-		<h3>The case of Kian Delos Santos</h3>
-		<p>A Grade 11 student, was found dead lying in a fetal position with gunshots to his head after a so-called "one-time, big-time" anti-illegal drugs operation by the Caloocan City police on August 16, 2017</p>
-		<p class="w3-opacity">2017</p>
 		</div>
-
-	</body>
-	</html>
+		</body>
+</html>

@@ -7,12 +7,8 @@
 <body>
 <?php include 'nav.php'?>
 	<div id="wrapper">
-		<div id="box2">
-		<h1>Hey, I'm Isaac</h1> 
-		<h2>and this is my Web Design Portfolio</h2>
-		</div>
-		<div id="box1">
-		<img class = 'imgtwo' src="images/prof.jpg"  alt="Prof">
+		<h1>Håfa Adai, I'm Isaac</h1> 
+		<h2>and this is my portfolio</h2>
 		</div>
 	</div>
 		

@@ -1,15 +1,15 @@
 function Alert1() {
-    alert("Opening a new tab to LT5");
+    alert("Opening to LT5");
   }
   
   function Alert2() {
-    alert("Opening a new tab to LT4");
+    alert("Opening to LT4");
     
   }
   function Alert3() {
-    alert("Opening a new tab to LT3");
+    alert("Opening to LT3");
   }
   
   function Alert4() {
-    alert("Opening a new tab to LT2");
+    alert("Opening to LT2");
   }

@@ -5,17 +5,18 @@ background-image: url("../images/bg.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: 150% 170%;
+overflow-x: auto;
 }
 
 
 h1 {
 font-family: monospace;
-text-align: left;
+text-align: center;
 color: #591ee4ef;
 font-size: 80px;
 margin-left: 40px;
 text-shadow:  2px 2px rgb(221, 221, 221);
-
+padding-top: 3ch;
 
 
 }
@@ -24,7 +25,7 @@ text-shadow:  2px 2px rgb(221, 221, 221);
 h2 {
 font-family: monospace;
 letter-spacing: 5px;
-text-align: left;
+text-align: center;
 color: white;
 margin-left: 40px;
 font-size: 50px;
@@ -45,10 +46,11 @@ text-shadow:  2px 2px rgb(127, 57, 207);
 h4 {
 font-family: monospace;
 text-align: left;
+letter-spacing: 3px;
 color: white;
 margin-left: 30px;
 font-size: 24px;
-text-shadow:  2px 2px black;
+text-shadow:  2px 2px rgb(78, 32, 202);
 
 }
 
@@ -71,8 +73,8 @@ font-size: 25px;;
 .imgone {
     Width: 80%;
     Height: auto;
-    margin-left:  auto;
-    margin-right: auto;
+    padding-left: 3ch;
+    padding-bottom: 4ch;
     }
 .imgtwo {
      Width: 90%;
@@ -80,7 +82,7 @@ font-size: 25px;;
     
 }
 .imgthree {
-    Width: 70%;
+    Width: 50%;
     Height: auto;
     float: center;
 
@@ -114,7 +116,7 @@ text-shadow:  2px 2px black;
 
 
 }
-a:link {
+  a:link {
     font-family: monospace;
     text-align: center;
     color: white;
@@ -124,7 +126,7 @@ a:link {
    a:visited {
     font-family: monospace;
     text-align: center;
-    color: rgb(165, 108, 240);
+    color: rgb(157, 138, 241);
     font-size: 30px;
    }
    
@@ -143,6 +145,7 @@ ul{
 	position: fixed;
 	width: 2480px;
 	background-color: #270575;
+    text-decoration: none;
 }
 li{		font-family: monospace;
     font-weight: bold;
@@ -177,7 +180,8 @@ li{		font-family: monospace;
             width: 615px;
             height: 480px;
             margin: 3px;
-            float: left;
+            justify-content: center;
+            
             
 }
 
@@ -186,7 +190,7 @@ li{		font-family: monospace;
             height: 580px;
             float: left;
             margin-left: 55px;
-            margin-bottom: auto;
+            
             
 
 }
@@ -209,7 +213,8 @@ li{		font-family: monospace;
             border: 2px solid white;
             float: left;
             background: rgba(50, 6, 153, 0.479) url("../blur/bg.jpg") center/120px no-repeat;
-}
+
+        }
 
 #box7{			width: 950px;
             height: 150px;
@@ -219,5 +224,8 @@ li{		font-family: monospace;
 }
 a:hover{
     color: rgb(248, 248, 248);
+    background-color: #2b1992;
 }
+
+
 
